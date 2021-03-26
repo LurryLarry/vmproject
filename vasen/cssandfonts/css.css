@@ -1,0 +1,345 @@
+@font-face {
+  font-family: 'paragonblack';
+  src: url('paragon_cleaners_black-webfont.woff2') format('woff2'),
+       url('paragon_cleaners_black-webfont.woff') format('woff'),
+       url('Paragon_Cleaners_Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.navbar-brand {
+  color: blue !important;
+  font-family: "paragonblack";
+  font-size: 50px;
+  padding-left: 50px;
+}
+.navbar-nav {
+  text-align: center !important;
+}
+html,body
+{
+  padding-top: 45px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    overflow-x: hidden; 
+}
+.navbar-collapse {
+flex-grow: 0 !important;
+}
+#paaotsikko {
+  text-align: center;
+  font-size: 30px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+html {
+  font-family: 'Courier New', Courier, monospace;
+}
+.active a {           /* AKTIIVISEN NAPPULAN VÄRI */
+  font-family: "paragonBlack";
+  text-align: center;  /* mobiililla navlinkit keskellä */
+  color: red !important;
+
+}
+.active a:hover {        /* AKTIIVISEN NAPPULAN HOVER VÄRI VOI POISTAA JOS EI TARVI */
+  color: black !important;
+}
+
+.nav-link {       /* NAPPULOIDEN VÄRI */
+  font-family: "paragonBlack";
+  text-align: center;  /* mobiililla navlinkit keskellä */
+  color: blue !important;
+ 
+}
+
+.nav-link:hover{         /* NAPPULAN HOVER VÄRI */
+  color:red !important;
+}
+.navbar {
+  background-color: lightblue !important;
+}
+p
+ {
+  font-size: 14px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h1,h2,h3,h4 {
+    font-family: 'Mukta', sans-serif;
+    font-weight: normal
+}
+.oma {
+    height: 35vw !important;
+    width: 100%;
+}
+
+.tel {
+  color: black;
+}
+
+
+ #tyhja {
+  height: 141px;
+
+}
+
+
+
+
+.fa-facebook{
+  /* background-color: azure; */
+  font-size: 48px;
+  color: white;
+}
+.fa-linkedin {
+ /* background-color: azure; */
+ font-size: 48px;
+ color: white;
+}
+
+.nav-link {
+  font-weight: 200;
+  font-size: 18px;
+  
+}
+
+
+#a {
+  color: white;
+}
+  
+.valiheader {
+  background-color: #727272;
+}
+
+.valiotsikko {
+background: green;
+
+
+}
+
+li {
+  font-size: 14px;
+}
+
+.display-4 {
+  font-size: 40px;
+  color: white;
+}
+
+.fa-facebook:hover {
+  
+  color: rgba(107, 141, 255, 0.479);
+
+}
+
+.fa-linkedin:hover {
+  color: rgba(107, 141, 255, 0.479);
+}
+
+.fa-arrow-up:hover {
+  color: black;
+}
+.progress {
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.kuvaotsikko {
+  text-align: center;
+  color: white;
+  font-family: 'Mukta', sans-serif;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.acctive, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+.jumboheader {
+  object-position: center center;
+  object-fit: cover;
+  width: 100%;
+    height: 300px;
+    background: no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.palveluheader {
+ padding-top: 0
+}
+.jumbotron {
+  margin: 0px;
+}
+.card-title {
+  font-family: 'Mukta', sans-serif;
+    font-weight: normal;
+}
+.card-text {
+  margin: 0px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+ul {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.container-fluid {
+  padding-top: 10px;
+}
+.galleriakuva {
+  object-fit: cover;
+  height: 350px;
+  transition: .5s ease !important;
+    opacity: 1 !important;
+
+}
+.galleriakuva:hover {
+  opacity: 0.5 !important;
+  transition: .5s ease !important;
+}
+
+.card-img-top1 {
+  transition: .5s ease !important;
+    opacity: 1 !important;
+
+}
+.card-img-top1:hover {
+  opacity: 0.5 !important;
+  transition: .5s ease !important;
+}
+
+.wrapper {
+  text-align: center !important;
+  padding-right: 5px;
+  padding-left: 0px !important;
+  margin-left: 0px !important;
+  width: 500px;
+}
+.iframe {
+  padding-left: 0px !important;
+  margin-left: 0px !important;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:relative;
+  float: left;
+}
+.fa-arrow-up { 
+  font-size: 30px;
+  color: rgb(85, 82, 82);
+  text-align: center;
+  display: inline-block;
+}
+h6 { 
+  font-family: 'Nunito Sans', sans-serif !important;
+  font-weight: 600; 
+}
+
+.galleryrow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.iframe-container iframe {
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+@media (max-width: 480px) { 
+  #logo{
+
+   width: 120px;
+  }
+  .oma {
+      height: auto !important;
+  }
+
+  .col-2, .galleriathumbnail {
+    float: left;
+    width: 50px;
+    height: auto;
+  }
+  .navbar-brand {
+    font-size: 25px;
+  }
+ 
+  .row .img-thumbnail {
+    border:0 !important;
+    box-shadow:none !important;
+    border-radius:0 !important;
+    background: transparent !important;
+}
+
+
+
+
+@media (max-width: 768px) { 
+  #logo, #a{
+
+   width: 250px;
+  }
+  .oma {
+    height: auto !important;
+}
+
+.wrapper {
+  width: 300px !important;
+}
+.iframe {
+  width: 300px !important;
+}
+.navbar-brand {
+  font-size: 25px !important;
+  padding: 0 !important;
+}
+.jumboheader {
+  
+  height: 150px !important;
+  
+}
+
+.navbar-collapse {
+  padding-left: 0px !important;
+  margin-left: 0px !important;
+}
+
+.galleriakuva {
+  height: 230px;
+}
+body {
+  padding-top: 0px;
+}
+ }
+
+}
+
